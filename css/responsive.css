@@ -1,0 +1,100 @@
+       /*container-prefesores-HOME*/
+@media screen and (max-width:760px){
+	.container__profesores{
+	height: 1800px;
+	 }
+    .container__profesores_card  {
+       margin-top: 100px;}
+    	 
+}      
+
+@media screen and (max-width:450px){
+	.container__profesores{
+	height: 1800px;
+	 }
+    .container__profesores_card  {
+        width: 30rem;
+        margin-top: 100px;}
+    
+}
+        /*container-top-HOME*/
+
+@media screen and (max-width:450px){
+    .container__top{
+        text-align: center;
+        height: 900px; }
+		.container__top_col {
+		    height: 400px;
+		     }
+		
+}
+
+		 /*container-reviews-HOME*/
+@media screen and (max-width:760px){
+       .corousel_rvs_item{ 
+		  	height: 1100px;
+        margin-top: 50px;}
+        		  	
+}
+@media screen and (max-width:1200px){
+   .corousel_rvs_imgText{
+   height: 350px;
+   padding: 70% 2%;
+   }
+}
+@media screen and (max-width:1200px){
+  .corousel_rvs_imgArea{
+    left: 50px;
+  }
+}
+     /******pages-help******/
+@media screen and (max-width: 600px){
+    .section_help {
+        height: auto;
+        width: auto;
+     }
+    
+}
+
+ 
+           /*teacher_card*/
+
+@media(max-width: 768px) {
+  .teachers__card__style {
+    flex-direction: column !important;
+    margin-bottom: 2.5rem;
+    height: auto;
+  }
+}
+/******************TEACHER-PERFIL******************/
+@media(max-width: 768px) {
+  .container {
+    height: auto;
+  }
+}
+           /*footer*/
+@media screen and (max-width:760px){
+	.page-footer{
+		padding-left:20px;
+  }
+  .footer__parrafo{
+    padding-right: 20px;
+  }
+}
+
+
+@media screen and (max-width:450px){
+	.page-footer{
+		padding-left:20px;
+  }
+  .footer__parrafo{
+    padding-right: 20px;
+  }
+}
+
+
+@media(max-width: 768px) {
+  .container {
+    height: auto;
+  }
+}

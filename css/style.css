@@ -1,0 +1,501 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Quicksand:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+body {
+  width: 100%;
+  background-color: #9ab3f5; }
+
+/*encabezados*/
+.topH2 {
+  margin: 100px 0px 30px;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #9ab3f5;
+  text-align: center;
+  color: #fff; }
+  .topH2 .topH2__h2 {
+    font-size: 40px; }
+
+h2 {
+  color: #fff;
+  font-family: 'Quicksand', sans-serif; }
+
+h3 {
+  color: #fff;
+  font-family: 'Quicksand', sans-serif; }
+
+p {
+  font-family: 'Alegreya', serif;
+  letter-spacing: 1px; }
+
+/***************** NAV ****************/
+.navbar__foto {
+  width: 100%; }
+
+.navStyle {
+  color: #fff;
+  background-color: #7579e7;
+  font-size: 20px;
+  border-color: transparent; }
+  .navStyle .navLinke__style {
+    background-color: #7579e7;
+    font-size: 20px;
+    color: #fff; }
+  .navStyle .navLinke__style:hover {
+    background-color: #a3d8f4;
+    border-radius: 20px; }
+  .navStyle .dropdown__style {
+    background-color: #7579e7;
+    color: #fff; }
+    .navStyle .dropdown__style .dropdown__style:hover {
+      background-color: #a3d8f4;
+      border-radius: 20px; }
+  .navStyle .dropdown__menu--style {
+    padding: 0;
+    min-width: 6rem;
+    left: -10px; }
+
+.navbar__customToggler {
+  border-color: #a3d8f4; }
+  .navbar__customToggler .navbar__customToggler--icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(163, 216, 244)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+
+/********************* CAROUSEL ****************/
+.carousel__item--style {
+  height: 40rem;
+  color: #fff;
+  background: grey;
+  position: relative;
+  background-position: center;
+  background-size: cover; }
+  .carousel__item--style .container__carousel {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 50px; }
+  .carousel__item--style .btn__carousel {
+    border-radius: 25px;
+    border-color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #7579e7;
+    font-weight: bold;
+    box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548); }
+    .carousel__item--style .btn__carousel:hover {
+      background-color: #a5a8f8;
+      transform: scale(1.2); }
+
+/**********containerTop********/
+.container__top {
+  text-align: center;
+  height: 500px; }
+  .container__top .container__top_col {
+    height: 400px; }
+  .container__top .container__top_colText_h2 {
+    margin-top: 80px;
+    color: #fff; }
+  .container__top .container__top_h2 {
+    margin: 10px 0;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold; }
+  .container__top .container__top_colText_p {
+    width: 400px;
+    text-align: center;
+    margin: 50px auto; }
+  .container__top .container__top_img {
+    height: 350px;
+    width: 500px; }
+
+/*****container profesorer***/
+.container__profesores {
+  margin-top: 50px;
+  height: 900px;
+  text-align: center; }
+  .container__profesores .container__profesores_col {
+    margin-bottom: 30px; }
+  .container__profesores .container__profesores_card {
+    width: 22rem;
+    margin: 20px auto;
+    height: 400px;
+    border-radius: 40px;
+    box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548); }
+  .container__profesores .container__profesores_btn {
+    border-radius: 25px;
+    border-color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #7579e7;
+    font-weight: bold;
+    box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548); }
+    .container__profesores .container__profesores_btn:hover {
+      background-color: #a5a8f8;
+      transform: scale(1.2); }
+
+/******CONNTAINER-REVIEWS******/
+.divTestimonial_h3 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px; }
+  .divTestimonial_h3 .testimonial_h3 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+
+.container_reviews {
+  margin-top: 30px; }
+  .container_reviews .corousel_rvs_inner {
+    margin-bottom: 100px; }
+    .container_reviews .corousel_rvs_inner .corousel_rvs_item {
+      background-color: transparent; }
+      .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col {
+        margin-top: 0px; }
+        .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_imgText {
+          width: 100%;
+          height: 300px;
+          display: block;
+          text-align: center;
+          padding: 35% 2%;
+          background: #7579e7;
+          color: #fff;
+          border-radius: 15px; }
+        .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_h2 {
+          font-size: 25px;
+          text-transform: uppercase;
+          letter-spacing: 2px; }
+        .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_p {
+          font-size: 14px; }
+        .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_sinBox {
+          position: relative;
+          margin-bottom: 30px; }
+        .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_imgArea {
+          position: absolute;
+          width: 100px;
+          height: 100px;
+          border: 5px solid #fff;
+          overflow: hidden;
+          top: 15px;
+          left: 125px;
+          border-radius: 50px; }
+        .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_img {
+          width: 100%; }
+  .container_reviews .carousel_indicators_reviews {
+    left: 0;
+    top: auto;
+    bottom: -30px; }
+  .container_reviews .carousel_indicators_li {
+    background: #7579e7;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px; }
+  .container_reviews .corousel_rvs_active {
+    background: #fff; }
+
+/******pages-help******/
+.section_help {
+  height: 1100px;
+  width: auto; }
+  .section_help .section_help_h2 {
+    padding: 20px; }
+  .section_help .section_help_faqs {
+    background-color: #fff;
+    width: 60%;
+    margin: 60px 50px;
+    padding: 20px 15px;
+    border-radius: 25px; }
+  .section_help .section_help_faqsH3 {
+    color: #7579e7;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px; }
+
+/******pages-contact******/
+.section_contacto {
+  margin: 0;
+  height: 300px;
+  text-align: center; }
+  .section_contacto .section_contacto_h2 {
+    margin: 50px 0; }
+
+.container_info_col {
+  margin-top: 150px; }
+  .container_info_col .container_info_imgText {
+    width: 100%;
+    height: 350px;
+    display: block;
+    text-align: center;
+    padding: 10% 5%;
+    background: #7579e7;
+    color: #fff;
+    border-radius: 15px; }
+  .container_info_col .container_info_h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .container_info_col .container_info_p {
+    font-size: 14px; }
+  .container_info_col .container_info_sinBox {
+    position: relative;
+    margin-bottom: 30px; }
+  .container_info_col .container_info_fas {
+    font-size: 100px;
+    padding-bottom: 10px; }
+
+.section_contactForm {
+  margin: 50px 0; }
+  .section_contactForm .contactForm__labelText {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .section_contactForm .contactForm_hr {
+    height: 5px;
+    width: 100%;
+    background: #a3d8f4; }
+  .section_contactForm .contactForm_btn {
+    background: #7579e7;
+    color: #fff; }
+  .section_contactForm .contactForm_col_fa {
+    margin: 10px 15px;
+    color: #7579e7; }
+  .section_contactForm .section_contactForm__h3 {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1px; }
+
+/**********************ADVERTISE**************/
+.section__advertise {
+  text-align: center;
+  height: 500px;
+  margin-top: 160px; }
+  .section__advertise .section__advertise__h2 {
+    padding: 15px; }
+  .section__advertise .section__advertise__h3 {
+    padding: 15px; }
+
+/******************teacher__cards******************/
+.teachers__card {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+  .teachers__card .teachers__card__row {
+    max-width: 1200px;
+    margin: 2rem auto; }
+    .teachers__card .teachers__card__row .teachers__card__style {
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      flex-direction: row;
+      margin-bottom: 10.5rem;
+      box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548); }
+    .teachers__card .teachers__card__row .teachers__card__img {
+      flex: 1 30%;
+      -webkit-flex: 1 30%;
+      overflow: hidden;
+      position: relative;
+      padding: 10px; }
+    .teachers__card .teachers__card__row .teachers__card__img-preview {
+      display: block;
+      object-fit: cover;
+      margin: 0 auto;
+      min-width: 150px;
+      max-width: 100%;
+      min-height: 100%;
+      transition: all 0.5s ease 0s; }
+    .teachers__card .teachers__card__row .teachers__card__content {
+      flex: 1 70%;
+      -webkit-flex: 1 70%;
+      padding: 0.8rem; }
+    .teachers__card .teachers__card__row .teachers__card__title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin: 0;
+      padding-bottom: 15px;
+      color: #7579e7; }
+    .teachers__card .teachers__card__row .teachers__card__text {
+      font-size: 0.9rem;
+      margin: 0; }
+    .teachers__card .teachers__card__row .teachers__cardStars {
+      color: burlywood; }
+    .teachers__card .teachers__card__row .teachers__cardStar__padding {
+      padding-left: 30px;
+      padding-bottom: 15px; }
+    .teachers__card .teachers__card__row .teachers__card__description {
+      font-size: 0.8rem;
+      margin: 0;
+      margin-top: 0.5rem;
+      color: #888;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 4;
+      max-height: 3rem;
+      line-height: 1rem; }
+    .teachers__card .teachers__card__row .teachers__card__bottom {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      align-content: center;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      border-top: 1px solid #7579e7;
+      text-align: right;
+      padding-top: 0.5rem;
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      color: #888; }
+    .teachers__card .teachers__card__row .teachers__card__btn {
+      border-radius: 25px;
+      border-color: #fff;
+      display: inline-block;
+      padding: 10px 30px;
+      text-decoration: none;
+      color: #fff;
+      background-color: #7579e7;
+      font-weight: bold;
+      box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548);
+      margin-top: 0.5rem; }
+    .teachers__card .teachers__card__row .teachers__card__btn:hover {
+      background-color: #a5a8f8;
+      transform: scale(1.2); }
+
+/******************TEACHER-PERFIL******************/
+.teacherPerfil__container {
+  background-color: #9ab3f5;
+  margin: auto; }
+  .teacherPerfil__container .teacherPerfil__col__p {
+    background: green;
+    width: 150px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 15px; }
+  .teacherPerfil__container .teacherPerfil__img {
+    height: 400px;
+    width: 300px;
+    margin-left: 20px; }
+  .teacherPerfil__container .teacherPerfil__center-block {
+    margin-left: auto;
+    margin-right: auto;
+    display: block; }
+  .teacherPerfil__container .teacherPerfil__h2Name {
+    color: #7579e7;
+    font-size: 26px;
+    font-weight: bold; }
+  .teacherPerfil__container .teacherPerfil__col {
+    margin: auto; }
+  .teacherPerfil__container .teacherPerfil__colRev {
+    background-color: #fff;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548); }
+  .teacherPerfil__container .teacherPerfil__colorFar {
+    color: burlywood; }
+  .teacherPerfil__container .teacherPerfil__price {
+    color: #FE980F;
+    font-size: 26px;
+    font-weight: bold; }
+  .teacherPerfil__container .teacherPerfil__btn {
+    display: flex;
+    flex-direction: row;
+    margin: 20px; }
+  .teacherPerfil__container .teacherPerfil__cart {
+    border-radius: 25px;
+    border-color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #7579e7;
+    font-weight: bold;
+    box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548); }
+    .teacherPerfil__container .teacherPerfil__cart:hover {
+      background-color: #a5a8f8;
+      transform: scale(1.2); }
+
+.container__accordion {
+  margin-top: 3em;
+  height: 400px;
+  margin: auto;
+  margin-top: 160px; }
+  .container__accordion #accordion .panel {
+    border-radius: 0;
+    border: 0;
+    margin-top: 0px; }
+  .container__accordion #accordion a {
+    display: block;
+    padding: 10px 15px;
+    border-bottom: 1px solid #7579e7;
+    text-decoration: none;
+    color: #7579e7; }
+  .container__accordion #accordion .panel-heading a.collapsed:hover,
+  .container__accordion #accordion .panel-heading a.collapsed:focus {
+    background-color: #7579e7;
+    color: #fff;
+    transition: all 0.2s ease-in; }
+  .container__accordion #accordion .panel-heading a.collapsed:hover::before,
+  .container__accordion #accordion .panel-heading a.collapsed:focus::before {
+    color: #fff; }
+  .container__accordion #accordion .panel-heading {
+    padding: 0;
+    border-radius: 0px;
+    text-align: center; }
+  .container__accordion #accordion .panel-heading a:not(.collapsed) {
+    color: #fff;
+    background-color: #7579e7;
+    transition: all 0.2s ease-in; }
+  .container__accordion Add Indicator fontawesome icon to the left
+#accordion .panel-heading .accordion-toggle::before {
+    font-family: 'FontAwesome';
+    content: '\f00d';
+    float: left;
+    color: #fff;
+    font-weight: lighter;
+    transform: rotate(0deg);
+    transition: all 0.2s ease-in; }
+  .container__accordion #accordion .panel-heading .accordion-toggle.collapsed::before {
+    color: #7579e7;
+    transform: rotate(-135deg);
+    transition: all 0.2s ease-in; }
+
+/**********************FOOTER **************/
+.page-footer {
+  background-color: #7579e7; }
+  .page-footer .footer__h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff; }
+  .page-footer .footer__barra {
+    width: 170px;
+    height: 2px;
+    background-color: #a3d8f4; }
+  .page-footer .footer__parrafo {
+    color: #fff; }
+  .page-footer .footer__link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; }
+    .page-footer .footer__link:hover {
+      text-decoration: none;
+      color: #a3d8f4; }
+  .page-footer .footer__contact {
+    color: #fff; }

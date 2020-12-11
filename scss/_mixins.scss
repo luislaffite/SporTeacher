@@ -1,0 +1,15 @@
+@mixin btn__general {
+    border-radius: 25px;
+    border-color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #7579e7;
+    font-weight: bold;
+    box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548);
+    &:hover {
+        background-color: #a5a8f8;
+        transform: scale(1.2);
+    }
+}
