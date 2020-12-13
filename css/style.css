@@ -148,7 +148,7 @@ p {
     border-color: #c4bdff;
     margin-top: 20px; }
     .container__plan__col .panel__pricing .panel__pricing:hover {
-      box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2); }
+      box-shadow: colShadowprimario; }
     .container__plan__col .panel__pricing .panel__heading {
       padding: 20px 10px;
       background-color: #99d3d0; }
