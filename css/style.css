@@ -141,42 +141,58 @@ p {
       transform: scale(1.2); }
 
 /*****container Price***/
-.container__plan__col {
-  text-align: center; }
-  .container__plan__col .panel__pricing {
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    border-color: #c4bdff;
-    margin-top: 20px; }
-    .container__plan__col .panel__pricing .panel__pricing:hover {
-      box-shadow: colShadowprimario; }
-    .container__plan__col .panel__pricing .panel__heading {
-      padding: 20px 10px;
-      background-color: #99d3d0; }
-      .container__plan__col .panel__pricing .panel__heading .panel__heading--fa {
-        margin-top: 10px;
-        font-size: 58px;
-        color: #a49bf5; }
-    .container__plan__col .panel__pricing .panel__list__group {
-      text-align: center; }
-    .container__plan__col .panel__pricing .groupList__style {
-      color: #777777;
-      border-bottom: 1px solid rgba(250, 250, 250, 0.5); }
-    .container__plan__col .panel__pricing .panel__body {
-      background-color: #f0f0f0;
-      font-size: 40px;
-      color: #777777;
-      padding: 10px;
-      margin: 0px;
-      text-align: center; }
-    .container__plan__col .panel__pricing .panel__footer {
-      margin: 10px 0; }
-    .container__plan__col .panel__pricing .panel__footer .panel__btn {
-      color: white;
-      background-color: #a49bf5;
-      padding: 10px 40px;
-      font-size: 18px;
-      line-height: 1.3333333;
-      border-radius: 10px; }
+#plans__price {
+  margin-top: 100px; }
+  #plans__price .plans__price__h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px; }
+  #plans__price .plans__price__p {
+    text-align: center;
+    color: #fff; }
+  #plans__price .container__plan__col {
+    text-align: center; }
+    #plans__price .container__plan__col .panel__pricing {
+      border: 2px solid;
+      border-color: #7579e7;
+      margin-top: 50px;
+      background-color: #fff; }
+      #plans__price .container__plan__col .panel__pricing:hover {
+        box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548); }
+      #plans__price .container__plan__col .panel__pricing .panel__heading {
+        padding: 20px 10px;
+        background-color: #7579e7; }
+        #plans__price .container__plan__col .panel__pricing .panel__heading .panel__heading--fa {
+          margin-top: 10px;
+          font-size: 58px;
+          color: #fff; }
+      #plans__price .container__plan__col .panel__pricing .panel__list__group {
+        text-align: center; }
+      #plans__price .container__plan__col .panel__pricing .groupList__style {
+        color: #777777;
+        border-bottom: 1px solid rgba(250, 250, 250, 0.5); }
+      #plans__price .container__plan__col .panel__pricing .panel__list--fa {
+        padding-right: 10px; }
+      #plans__price .container__plan__col .panel__pricing .panel__body {
+        background-color: #f0f0f0;
+        font-size: 35px;
+        color: #777777;
+        padding: 10px;
+        margin: 0px;
+        text-align: center; }
+      #plans__price .container__plan__col .panel__pricing .panel__footer {
+        margin: 10px 0;
+        background-color: #fff; }
+        #plans__price .container__plan__col .panel__pricing .panel__footer .panel__btn {
+          color: #fff;
+          background-color: #7579e7;
+          padding: 10px 40px;
+          font-size: 18px;
+          line-height: 1.3333333;
+          border-radius: 10px; }
+          #plans__price .container__plan__col .panel__pricing .panel__footer .panel__btn:hover {
+            background-color: #a5a8f8;
+            transform: scale(1.2); }
 
 /******CONNTAINER-REVIEWS******/
 .divTestimonial_h3 {
