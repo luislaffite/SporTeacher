@@ -102,17 +102,33 @@ p {
 	}
 
 }
- 
+/**********section-what-we-do********/
+.whatwedo__secction{
+	width: 100%;
+		.whatwedo__div{
+			margin: 50px 0px;
+			padding: 10px;
+			text-align: center;
+				.whatwedo__h2{
+					font-size: 50px;
+					margin: 30px 0;
+				}
+				.whatwedo__p{
+					color:$colWhite ;
+					font-size: 22px;
+				}
+			}
+}
 /**********containerTop********/
 
 .container__top{
         text-align: center;
         height: 500px; 
 		.container__top_col {
-		    height: 400px;
+		    height: 300px;
 		     }
 		.container__top_colText_h2 {
-		        margin-top: 80px;
+		        margin-top: 40px;
 		        color: $colWhite;
 		    }
 		.container__top_h2{
@@ -127,7 +143,7 @@ p {
 		    margin: 50px auto;
 		}
 		.container__top_img {
-		    height: 350px;
+		    height: 300px;
 		    width: 500px;
 		}
 }

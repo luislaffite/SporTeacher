@@ -91,14 +91,28 @@ p {
       background-color: #a5a8f8;
       transform: scale(1.2); }
 
+/**********section-what-we-do********/
+.whatwedo__secction {
+  width: 100%; }
+  .whatwedo__secction .whatwedo__div {
+    margin: 50px 0px;
+    padding: 10px;
+    text-align: center; }
+    .whatwedo__secction .whatwedo__div .whatwedo__h2 {
+      font-size: 50px;
+      margin: 30px 0; }
+    .whatwedo__secction .whatwedo__div .whatwedo__p {
+      color: #fff;
+      font-size: 22px; }
+
 /**********containerTop********/
 .container__top {
   text-align: center;
   height: 500px; }
   .container__top .container__top_col {
-    height: 400px; }
+    height: 300px; }
   .container__top .container__top_colText_h2 {
-    margin-top: 80px;
+    margin-top: 40px;
     color: #fff; }
   .container__top .container__top_h2 {
     margin: 10px 0;
@@ -110,7 +124,7 @@ p {
     text-align: center;
     margin: 50px auto; }
   .container__top .container__top_img {
-    height: 350px;
+    height: 300px;
     width: 500px; }
 
 /*****container profesorer***/
