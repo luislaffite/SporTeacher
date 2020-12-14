@@ -123,7 +123,9 @@ p {
 
 .container__top{
         text-align: center;
-        height: 500px; 
+		height: 1700px; 
+		.container__top_row{
+          margin: 150px;
 		.container__top_col {
 		    height: 300px;
 		     }
@@ -146,8 +148,15 @@ p {
 		    height: 300px;
 		    width: 500px;
 		}
+	}
 }
 /*****container profesorer***/
+.container__top_divh2{
+	margin: 50px;
+	text-align: center;
+	width: 100%;
+}
+
 .container__profesores{
 	margin-top: 50px;
 	height: 900px;
