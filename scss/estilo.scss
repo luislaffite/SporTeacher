@@ -170,10 +170,19 @@ p {
 		.container__profesores_card {
 		    width: 22rem;
 		    margin: 20px auto;
-		    height: 400px;
+		    height: 425px;
 		    border-radius: 40px;
 		    box-shadow: $colShadowprimario;}
-		    
+		.container__profesores_card_tittle{
+			color: $colPrincipal;
+			margin-top: 15px;
+			margin-bottom: 0;
+			font-weight: bold;
+			font-size: 24px;
+		}  
+		.container__profesores_cardText{
+			margin-top: 10px;
+		}  
 	    .container__profesores_btn {
 	      @include btn__general;
 			}
