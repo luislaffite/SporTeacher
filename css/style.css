@@ -95,7 +95,7 @@ p {
 .whatwedo__secction {
   width: 100%; }
   .whatwedo__secction .whatwedo__div {
-    margin: 50px 0px;
+    margin: 150px 0px;
     padding: 10px;
     text-align: center; }
     .whatwedo__secction .whatwedo__div .whatwedo__h2 {
@@ -108,9 +108,9 @@ p {
 /**********containerTop********/
 .container__top {
   text-align: center;
-  height: 1700px; }
+  height: 2100px; }
   .container__top .container__top_row {
-    margin: 150px; }
+    margin: 250px 0px; }
     .container__top .container__top_row .container__top_col {
       height: 300px; }
     .container__top .container__top_row .container__top_colText_h2 {
@@ -131,12 +131,14 @@ p {
 
 /*****container profesorer***/
 .container__top_divh2 {
-  margin: 50px;
+  margin: 50px 0px 50px 0px;
   text-align: center;
   width: 100%; }
+  .container__top_divh2 .container__top_h2 {
+    font-size: 45px; }
 
 .container__profesores {
-  margin-top: 50px;
+  margin-top: 150px;
   height: 900px;
   text-align: center; }
   .container__profesores .container__profesores_col {
@@ -163,14 +165,15 @@ p {
 
 /*****container Price***/
 #plans__price {
-  margin-top: 100px; }
+  margin: 150px 0; }
   #plans__price .plans__price__h2 {
     text-align: center;
-    font-size: 35px;
+    font-size: 45px;
     margin-bottom: 30px; }
   #plans__price .plans__price__p {
     text-align: center;
-    color: #fff; }
+    color: #fff;
+    margin-bottom: 150px; }
   #plans__price .container__plan__col {
     text-align: center; }
     #plans__price .container__plan__col .panel__pricing {
@@ -555,22 +558,25 @@ p {
 /**********************FOOTER **************/
 .page-footer {
   background-color: #7579e7; }
-  .page-footer .footer__h4 {
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #fff; }
-  .page-footer .footer__barra {
-    width: 170px;
-    height: 2px;
-    background-color: #a3d8f4; }
-  .page-footer .footer__parrafo {
-    color: #fff; }
-  .page-footer .footer__link {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold; }
-    .page-footer .footer__link:hover {
+  .page-footer .footer__row {
+    margin-right: 0;
+    margin-left: 0; }
+    .page-footer .footer__row .footer__h4 {
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #fff; }
+    .page-footer .footer__row .footer__barra {
+      width: 170px;
+      height: 2px;
+      background-color: #a3d8f4; }
+    .page-footer .footer__row .footer__parrafo {
+      color: #fff; }
+    .page-footer .footer__row .footer__link {
+      color: #fff;
       text-decoration: none;
-      color: #a3d8f4; }
-  .page-footer .footer__contact {
-    color: #fff; }
+      font-weight: bold; }
+      .page-footer .footer__row .footer__link:hover {
+        text-decoration: none;
+        color: #a3d8f4; }
+    .page-footer .footer__row .footer__contact {
+      color: #fff; }

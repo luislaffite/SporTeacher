@@ -106,7 +106,7 @@ p {
 .whatwedo__secction{
 	width: 100%;
 		.whatwedo__div{
-			margin: 50px 0px;
+			margin: 150px 0px;
 			padding: 10px;
 			text-align: center;
 				.whatwedo__h2{
@@ -121,11 +121,11 @@ p {
 }
 /**********containerTop********/
 
-.container__top{
+.container__top {
         text-align: center;
-		height: 1700px; 
+		height: 2100px; 
 		.container__top_row{
-          margin: 150px;
+          margin: 250px 0px;
 		.container__top_col {
 		    height: 300px;
 		     }
@@ -152,13 +152,16 @@ p {
 }
 /*****container profesorer***/
 .container__top_divh2{
-	margin: 50px;
+	margin: 50px 0px 50px 0px ;
 	text-align: center;
 	width: 100%;
+	.container__top_h2{
+		font-size: 45px;
+	}
 }
 
 .container__profesores{
-	margin-top: 50px;
+	margin-top: 150px;
 	height: 900px;
 	text-align: center;
 	    .container__profesores_col {
@@ -179,15 +182,16 @@ p {
 
 /*****container Price***/ 
 #plans__price{
-	margin-top: 100px;
+	margin: 150px 0;
 	  .plans__price__h2{
 	  	text-align: center;
-	  	font-size: 35px;
+	  	font-size: 45px;
 	  	margin-bottom: 30px;
 	  }
 	  .plans__price__p{
 	  	text-align: center;
-	  	color: $colWhite;
+		color: $colWhite;
+		margin-bottom: 150px; 
 	  }
 .container__plan__col {
 	text-align: center;
@@ -663,32 +667,36 @@ p {
 /**********************FOOTER **************/
 
 .page-footer {
-    background-color: $colPrincipal;
-    .footer__h4 {
-        text-transform: uppercase;
-        font-weight: bold;
-        color: $colWhite;
-    }
-    .footer__barra {
-        width: 170px;
-        height: 2px;
-        background-color: $colThird;
-    }
-    .footer__parrafo {
-        color: $colWhite;
-    }
-    .footer__link {
-        color: $colWhite;
-        text-decoration: none;
-        font-weight: bold;
-        &:hover {
-            text-decoration: none;
-            color: $colThird;
-        }
-    }
-    .footer__contact {
-        color: $colWhite;
-    }
+	background-color: $colPrincipal;
+	.footer__row{
+		margin-right: 0;
+		margin-left: 0;
+		.footer__h4 {
+			text-transform: uppercase;
+			font-weight: bold;
+			color: $colWhite;
+		}
+		.footer__barra {
+			width: 170px;
+			height: 2px;
+			background-color: $colThird;
+		}
+		.footer__parrafo {
+			color: $colWhite;
+		}
+		.footer__link {
+			color: $colWhite;
+			text-decoration: none;
+			font-weight: bold;
+			&:hover {
+				text-decoration: none;
+				color: $colThird;
+			}
+		}
+		.footer__contact {
+			color: $colWhite;
+		}
+	}
 }
  
 

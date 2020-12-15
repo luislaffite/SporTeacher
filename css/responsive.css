@@ -22,9 +22,14 @@
 @media screen and (max-width:450px){
     .container__top{
         text-align: center;
-        height: 900px; }
-		.container__top_col {
-		    height: 400px;
+        height: 3000px; }
+      .container__top_row{
+          color: green;
+          margin: 10px ;
+          width: 100%;
+      }
+		  .container__top_col {
+		    height: 300px;
 		     }
 		
 }
@@ -76,6 +81,10 @@
 @media screen and (max-width:760px){
 	.page-footer{
 		padding-left:20px;
+  }
+  .footer__row{
+		margin-right: 0;
+    margin-left: 0;
   }
   .footer__parrafo{
     padding-right: 20px;
