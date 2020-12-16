@@ -256,11 +256,12 @@ p {
           color: #fff;
           border-radius: 15px; }
           .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_imgText .corousel_rvs--p {
-            margin: 0;
+            margin: 5px 0px;
             font-weight: bold;
             color: #a3d8f4; }
         .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs__colorFar {
-          color: burlywood; }
+          color: burlywood;
+          margin-bottom: 5px; }
         .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_h2 {
           font-size: 25px;
           text-transform: uppercase;

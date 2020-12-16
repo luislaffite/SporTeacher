@@ -290,13 +290,14 @@ p {
 				color: #fff;
 				border-radius: 15px;
 				.corousel_rvs--p{
-					margin: 0;
+					margin: 5px 0px;
 					font-weight: bold;
 					color: $colThird;
 				}
 			}
 			.corousel_rvs__colorFar{
 				color: $colStars;
+				margin-bottom: 5px;
 			}
 			.corousel_rvs_h2 {
 				font-size: 25px;
