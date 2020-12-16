@@ -261,6 +261,14 @@ p {
           letter-spacing: 2px; }
         .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_p {
           font-size: 14px; }
+          .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_p .corousel__rvsP--A {
+            text-decoration: none;
+            color: #a3d8f4;
+            font-weight: bold; }
+            .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_p .corousel__rvsP--A:hover {
+              text-decoration: none;
+              color: #a3d8f4;
+              transform: scale(4.2); }
         .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_sinBox {
           position: relative;
           margin-bottom: 30px; }

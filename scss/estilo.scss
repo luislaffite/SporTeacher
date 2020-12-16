@@ -297,6 +297,15 @@ p {
 			}
 			.corousel_rvs_p {
 				font-size: 14px;
+				.corousel__rvsP--A{
+				 text-decoration: none;	
+				 color: $colThird;
+				 font-weight: bold;
+				    &:hover {
+					text-decoration: none;
+					color: $colThird;
+                    transform: scale(4.2);}
+				}
 			}
 			.corousel_rvs_sinBox{
 				position: relative;
