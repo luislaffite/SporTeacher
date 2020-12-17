@@ -90,6 +90,13 @@
     }
 }
 @media screen and (max-width:760px){
+     .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_imgText{
+       height: 450px;
+       padding: 60% 6%;
+      }
+      .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_imgArea{
+        left:50px;
+      }
        .corousel_rvs_item{ 
 		  	height: 1100px;
         margin-top: 50px;}
