@@ -1,19 +1,19 @@
        /*container-prefesores-HOME*/
 @media screen and (max-width:760px){
 	.container__profesores{
-	height: 1800px;
+	 height:1800px;
 	 }
-    .container__profesores_card  {
-       margin-top: 100px;}
+    .container__profesores_card{
+       margin-top:100px;}
     	 
 }      
 
 @media screen and (max-width:450px){
 	.container__profesores{
-	height: 1800px;
+	height:1800px;
 	 }
-    .container__profesores_card  {
-        width: 30rem;
+    .container__profesores_card {
+        width:30rem;
         margin-top: 100px;}
     
 }
@@ -21,12 +21,12 @@
         /*section-whatweDO-HOME*/
 @media screen and (max-width:770px){
   .whatwedo__secction .whatwedo__div {
-    margin: 50px 0px;
+    margin:50px 0px;}
 }
 
 @media screen and (max-width:450px){
   .whatwedo__secction .whatwedo__div {
-    margin: 50px 0px;
+    margin: 50px 0px;}
 }
 
 
@@ -34,7 +34,7 @@
 
 @media screen and (max-width:770px){
   .container__top{
-      text-align: center;
+      text-align:center;
       height: 1500px; }
     .container__top .container__top_row {
       margin: 50px 0px;
@@ -42,7 +42,7 @@
 }
 @media screen and (max-width:400px){
     .container__top{
-        text-align: center;
+        text-align:center;
         height: 2750px; }
       .container__top .container__top_row {
         margin: 50px 0px;
@@ -58,7 +58,7 @@
        /*section-plans-price*/
 
 @media screen and (max-width:400px){
-  #plans__price {
+    #plans__price {
     margin: 300px 0 150px;}
     #plans__price .plans__price__p{
       padding: 0px 20px;
@@ -68,25 +68,25 @@
 
       /*container__tap_divh2*/
 @media screen and (max-width:460px){
-       .container__top_divh2 {
-           margin: 150px 0;
+       .container__top_divh2{
+           margin: 150px 0;}
 
 }
        /*section-testimonials-3-HOME */
 
-       @media screen and (max-width:400px){
-        .divTestimonial_h3 {
-          margin-bottom: 100px;}
+@media screen and (max-width:400px){
+    .divTestimonial_h3 {
+      margin-bottom: 100px;}
 }
      /*container-reviews-HOME*/
      
 @media screen and (max-width:1200px){
     .corousel_rvs_imgText{
-    height: 350px;
-    padding: 70% 2%;
+    height:350px;
+    padding:70% 2%;
     }
     .corousel_rvs_imgArea{
-      left: 50px;
+      left:50px;
     }
 }
 @media screen and (max-width:760px){
@@ -98,64 +98,60 @@
 
 @media screen and (max-width:480px){
   .container_reviews .carousel_indicators_reviews {
-    left: 0;
-    top: auto;
-    bottom: -60px;
+    left:0;
+    top:auto;
+    bottom:-60px;
   }
    
 }
+@media screen and (max-width:768px){
+  .container {
+    height:auto;
+  }
+}
      /******pages-help******/
-@media screen and (max-width: 600px){
-    .section_help {
-        height: auto;
-        width: auto;
-     }
+     @media screen and (max-width: 600px){
+      .section_help {
+          height:auto;
+          width:auto;
+       }
+      
+  }
+  
+   
+             /*teacher_card*/
+  
+@media screen and (max-width:768px){
+.teachers__card__style {
+  flex-direction:column !important;
+  margin-bottom:2.5rem;
+  height:auto;
+}
+}
+  /******************TEACHER-PERFIL******************/
+  @media screen and (max-width:768px){
+    .container{
+      height:auto;
+    }
+  }
+             /*footer*/
+  @media screen and (max-width:760px){
+    .page-footer{
+      padding-left:20px;
+      padding-right:20px;
+    }
+    .footer__row{
+      margin-right:0;
+      margin-left:0;
+    }
     
-}
-
- 
-           /*teacher_card*/
-
-@media(max-width: 768px) {
-  .teachers__card__style {
-    flex-direction: column !important;
-    margin-bottom: 2.5rem;
-    height: auto;
   }
-}
-/******************TEACHER-PERFIL******************/
-@media(max-width: 768px) {
-  .container {
-    height: auto;
+  
+  
+  @media screen and (max-width:450px){
+    .page-footer{
+      padding-left:20px;
+      padding-right:20px;
+    }
+     
   }
-}
-           /*footer*/
-@media screen and (max-width:760px){
-	.page-footer{
-		padding-left:20px;
-  }
-  .footer__row{
-		margin-right: 0;
-    margin-left: 0;
-  }
-  .footer__parrafo{
-    padding-right: 20px;
-  }
-}
-
-
-@media screen and (max-width:450px){
-	.page-footer{
-		padding-left:20px;
-  }
-  .footer__parrafo{
-    padding-right: 20px;
-  }
-}
-
-
-@media(max-width: 768px) {
-  .container {
-    height: auto;
-  }
-}
