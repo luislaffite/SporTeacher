@@ -17,40 +17,92 @@
         margin-top: 100px;}
     
 }
-        /*container-top-HOME*/
+
+        /*section-whatweDO-HOME*/
+@media screen and (max-width:770px){
+  .whatwedo__secction .whatwedo__div {
+    margin: 50px 0px;
+}
 
 @media screen and (max-width:450px){
+  .whatwedo__secction .whatwedo__div {
+    margin: 50px 0px;
+}
+
+
+        /*container-top-HOME*/
+
+@media screen and (max-width:770px){
+  .container__top{
+      text-align: center;
+      height: 1500px; }
+    .container__top .container__top_row {
+      margin: 50px 0px;
+    }
+}
+@media screen and (max-width:400px){
     .container__top{
         text-align: center;
-        height: 3000px; }
-      .container__top_row{
-          color: green;
-          margin: 10px ;
-          width: 100%;
+        height: 2750px; }
+      .container__top .container__top_row {
+        margin: 50px 0px;
+      }
+      .container__top .container__top_row .container__top_colText_p{
+        padding-right: 80px;
       }
 		  .container__top_col {
-		    height: 300px;
+		    height: 300px;overflow: auto;
 		     }
 		
 }
+       /*section-plans-price*/
 
-		 /*container-reviews-HOME*/
+@media screen and (max-width:400px){
+  #plans__price {
+    margin: 300px 0 150px;}
+    #plans__price .plans__price__p{
+      padding: 0px 20px;
+    }
+}      
+
+
+      /*container__tap_divh2*/
+@media screen and (max-width:460px){
+       .container__top_divh2 {
+           margin: 150px 0;
+
+}
+       /*section-testimonials-3-HOME */
+
+       @media screen and (max-width:400px){
+        .divTestimonial_h3 {
+          margin-bottom: 100px;}
+}
+     /*container-reviews-HOME*/
+     
+@media screen and (max-width:1200px){
+    .corousel_rvs_imgText{
+    height: 350px;
+    padding: 70% 2%;
+    }
+    .corousel_rvs_imgArea{
+      left: 50px;
+    }
+}
 @media screen and (max-width:760px){
        .corousel_rvs_item{ 
 		  	height: 1100px;
         margin-top: 50px;}
         		  	
 }
-@media screen and (max-width:1200px){
-   .corousel_rvs_imgText{
-   height: 350px;
-   padding: 70% 2%;
-   }
-}
-@media screen and (max-width:1200px){
-  .corousel_rvs_imgArea{
-    left: 50px;
+
+@media screen and (max-width:480px){
+  .container_reviews .carousel_indicators_reviews {
+    left: 0;
+    top: auto;
+    bottom: -60px;
   }
+   
 }
      /******pages-help******/
 @media screen and (max-width: 600px){
