@@ -311,10 +311,10 @@ p {
 				 text-decoration: none;	
 				 color: $colThird;
 				 font-weight: bold;
-				    &:hover {
+				 &:hover {
 					text-decoration: none;
 					color: $colThird;
-                    transform: scale(4.2);}
+                    transform:scale(4.2);}
 				}
 			}
 			.corousel_rvs_sinBox{
@@ -699,13 +699,35 @@ p {
 	.footer__row{
 		margin-right: 0;
 		margin-left: 0;
+		.footer__socialLinks{
+			color:$colWhite;
+			margin-right: 1rem;
+			&:hover {
+			 color: $colThird;
+			}
+		}
 		.footer__h4 {
 			text-transform: uppercase;
 			font-weight: bold;
 			color: $colWhite;
 		}
-		.footer__barra {
+		.footer__barra1 {
 			width: 170px;
+			height: 2px;
+			background-color: $colThird;
+		}
+		.footer__barra2 {
+			width: 120px;
+			height: 2px;
+			background-color: $colThird;
+		}
+		.footer__barra3 {
+			width: 170px;
+			height: 2px;
+			background-color: $colThird;
+		}
+		.footer__barra4 {
+			width: 112px;
 			height: 2px;
 			background-color: $colThird;
 		}
