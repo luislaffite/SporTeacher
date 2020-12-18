@@ -185,6 +185,7 @@ p {
   #plans__price .container__plan__col {
     text-align: center; }
     #plans__price .container__plan__col .panel__pricing {
+      border-radius: 25px;
       border: 2px solid;
       border-color: #7579e7;
       margin-top: 50px;
@@ -192,10 +193,12 @@ p {
       #plans__price .container__plan__col .panel__pricing:hover {
         box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548); }
       #plans__price .container__plan__col .panel__pricing .panel__heading {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
         padding: 20px 10px;
         background-color: #7579e7; }
         #plans__price .container__plan__col .panel__pricing .panel__heading .panel__heading--fa {
-          margin-top: 10px;
+          margin: 10px 0;
           font-size: 58px;
           color: #fff; }
       #plans__price .container__plan__col .panel__pricing .panel__list__group {
@@ -213,8 +216,7 @@ p {
         margin: 0px;
         text-align: center; }
       #plans__price .container__plan__col .panel__pricing .panel__footer {
-        margin: 10px 0;
-        background-color: #fff; }
+        margin: 10px 0; }
         #plans__price .container__plan__col .panel__pricing .panel__footer .panel__btn {
           color: #fff;
           background-color: #7579e7;
@@ -585,9 +587,12 @@ p {
   .page-footer .footer__row {
     margin-right: 0;
     margin-left: 0; }
+    .page-footer .footer__row .footer__col {
+      margin: 0px auto 24px; }
     .page-footer .footer__row .footer__socialLinks {
       color: #fff;
-      margin-right: 1rem; }
+      margin-right: 1rem;
+      font-size: 25px; }
       .page-footer .footer__row .footer__socialLinks:hover {
         color: #a3d8f4; }
     .page-footer .footer__row .footer__h4 {

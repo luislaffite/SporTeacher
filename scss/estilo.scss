@@ -202,21 +202,24 @@ p {
 		color: $colWhite;
 		margin-bottom: 150px; 
 	  }
-.container__plan__col {
-	text-align: center;
-	.panel__pricing{
-		border: 2px solid ;
-		border-color: $colPrincipal;
-		margin-top: 50px;
-		background-color: $colWhite;
+		.container__plan__col {
+		text-align: center;
+			.panel__pricing{
+			border-radius: 25px;
+			border: 2px solid ;
+			border-color: $colPrincipal;
+			margin-top: 50px;
+			background-color: $colWhite;
 			&:hover {
 				box-shadow:$colShadowprimario;
 			}
 			.panel__heading {
+				border-top-left-radius:20px;
+				border-top-right-radius:20px;
 				padding: 20px 10px;
 				background-color: $colPrincipal;			 
 					.panel__heading--fa {
-						margin-top: 10px;
+						margin: 10px 0;
 						font-size: 58px;
 						color:  $colWhite;
 					}
@@ -240,7 +243,6 @@ p {
 			}
 			.panel__footer{
 				margin:10px 0;
-				background-color: $colWhite;
 			    .panel__btn{
 					color: $colWhite;
 					background-color: $colPrincipal;
@@ -699,9 +701,13 @@ p {
 	.footer__row{
 		margin-right: 0;
 		margin-left: 0;
+		.footer__col{	
+		 margin: 0px auto 24px;
+		}
 		.footer__socialLinks{
 			color:$colWhite;
 			margin-right: 1rem;
+			font-size: 25px;
 			&:hover {
 			 color: $colThird;
 			}

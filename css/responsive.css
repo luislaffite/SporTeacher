@@ -56,7 +56,11 @@
 		
 }
        /*section-plans-price*/
-
+@media screen and (max-width:768px){
+       #plans__price .container__plan__col .panel__pricing .panel__footer .panel__btn:hover{
+        transform: scale(1.1);
+       }
+}
 @media screen and (max-width:400px){
     #plans__price {
     margin: 300px 0 150px;}
@@ -81,12 +85,15 @@
      /*container-reviews-HOME*/
      
 @media screen and (max-width:768px){
+      .container_reviews {
+        height:auto;
+      }
       .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_imgText{
       height:450px;
       padding:60% 6%;
       }
       .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_imgArea{
-        left:50px;
+        left:60px;
       }
   }
 
@@ -97,13 +104,16 @@
     top:auto;
     bottom:-60px;
   }
+  .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_imgText{
+  height:400px;
+  padding:40% 6%;
+  }
+  .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_imgArea{
+    left:125px;
+  }
    
 }
-@media screen and (max-width:768px){
-  .container {
-    height:auto;
-  }
-}
+ 
      /******pages-help******/
      @media screen and (max-width: 600px){
       .section_help {
@@ -130,17 +140,16 @@
     }
   }
              /*footer*/
-  @media screen and (max-width:760px){
-    .page-footer{
-      padding-left:20px;
-      padding-right:20px;
-    }
+  @media screen and (max-width:768px){  
     .footer__row{
       margin-right:0;
       margin-left:0;
     }
-    .page-footer .footer__row .footer__barra{
-      width: auto;
+    .page-footer .footer__row .footer__col{	
+      margin: 0px 10px 10px 10px;
+     }
+    .page-footer .footer__row .footer__barra3{
+      width:100px;
     }
   }
   
