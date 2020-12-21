@@ -108,7 +108,7 @@ p {
 
 .carousel__item--styleImg2::before {
   content: "";
-  background: linear-gradient(45deg, #52c4df, #7579e7);
+  background: linear-gradient(45deg, #52c4df, #ad55c1);
   width: 100%;
   min-height: 100%;
   position: absolute;
@@ -163,14 +163,17 @@ p {
     .container__top .container__top_row .container__top_colText_p {
       width: 400px;
       text-align: center;
-      margin: 50px auto; }
+      margin: 50px auto;
+      color: #eaeaed;
+      letter-spacing: 0.2rem;
+      font-size: 1.2rem; }
     .container__top .container__top_row .container__top_img {
       height: 300px;
       width: 500px; }
 
 /*****container profesorer***/
 .container__top_divh2 {
-  margin: 50px 0px 50px 0px;
+  margin: 250px 0px 150px 0px;
   text-align: center;
   width: 100%; }
   .container__top_divh2 .container__top_h2 {
@@ -212,7 +215,7 @@ p {
 
 /*****container Price***/
 #plans__price {
-  margin: 150px 0; }
+  margin: 250px 0; }
   #plans__price .plans__price__h2 {
     text-align: center;
     font-size: 45px;
@@ -220,7 +223,8 @@ p {
   #plans__price .plans__price__p {
     text-align: center;
     color: #fff;
-    margin-bottom: 150px; }
+    margin-bottom: 150px;
+    font-size: 22px; }
   #plans__price .container__plan__col {
     text-align: center; }
     #plans__price .container__plan__col .panel__pricing {
@@ -271,7 +275,7 @@ p {
 .divTestimonial_h3 {
   text-align: center;
   margin-top: 70px;
-  margin-bottom: 50px; }
+  margin-bottom: 150px; }
   .divTestimonial_h3 .testimonial_h3 {
     color: #fff;
     font-weight: bold;
@@ -296,10 +300,15 @@ p {
           background: #7579e7;
           color: #fff;
           border-radius: 15px; }
-          .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_imgText .corousel_rvs--p {
-            margin: 5px 0px;
+          .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_imgText .corousel_rvs--a {
+            margin: 7px 0px;
             font-weight: bold;
-            color: #a3d8f4; }
+            color: #a3d8f4;
+            text-decoration: none; }
+            .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_imgText .corousel_rvs--a:hover {
+              text-decoration: none;
+              color: #a3d8f4;
+              transform: scale 2.2; }
         .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs__colorFar {
           color: burlywood;
           margin-bottom: 5px; }
