@@ -86,7 +86,6 @@ p {
 .carousel__item--style {
 	height: 40rem;
 	color: $colWhite;
-	background: grey;
 	position: relative;
 	background-position: center;
 	background-size: cover;
@@ -102,6 +101,53 @@ p {
 	}
 
 }
+.carousel__item--styleImg1{
+	background-image: url('../img/imgCarru/dtB.jpg');
+		 
+}
+.carousel__item--styleImg1::before{
+	content: "";
+	background:linear-gradient(45deg,#52c4df,#ad55c1);
+	width: 100%;
+	min-height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.5;
+
+}
+.carousel__item--styleImg2{
+	background-image: url('../img/imgCarru/defensaB.jpg');
+	 
+}
+.carousel__item--styleImg2::before{
+	content: "";
+	background:linear-gradient(45deg,#52c4df,#7579e7);
+	width: 100%;
+	min-height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.5;
+
+}
+.carousel__item--styleImg3{
+	background-image: url('../img/imgCarru/crossB.jpg');
+	background-position: top;
+}
+.carousel__item--styleImg3::before{
+	content: "";
+	background:linear-gradient(45deg,#52c4df,#ad55c1);
+	width: 100%;
+	min-height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.5;
+
+}
+
+
 /**********section-what-we-do********/
 .whatwedo__secction{
 	width: 100%;
