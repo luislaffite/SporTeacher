@@ -28,7 +28,7 @@ h3 {
   font-family: 'Quicksand', sans-serif; }
 
 p {
-  font-family: 'Alegreya', serif;
+  font-family: 'Quicksand', sans-serif;
   letter-spacing: 1px; }
 
 /***************** NAV ****************/
@@ -104,7 +104,7 @@ p {
   opacity: 0.5; }
 
 .carousel__item--styleImg2 {
-  background-image: url("../img/imgCarru/defensaB.jpg"); }
+  background-image: url("../img/imgCarru/footballB.jpg"); }
 
 .carousel__item--styleImg2::before {
   content: "";
@@ -189,8 +189,9 @@ p {
     width: 22rem;
     margin: 20px auto;
     height: 425px;
-    border-radius: 40px;
-    box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548); }
+    border-radius: 40px; }
+    .container__profesores .container__profesores_card:hover {
+      box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548); }
   .container__profesores .container__profesores_card_tittle {
     color: #7579e7;
     margin-top: 15px;
@@ -319,14 +320,14 @@ p {
           margin-bottom: 0; }
         .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_p {
           font-size: 14px; }
-          .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_p .corousel__rvsP--A {
+        .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel__rvsP--A {
+          text-decoration: none;
+          color: #a3d8f4;
+          font-weight: bold; }
+          .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel__rvsP--A .corousel__rvsP--A:hover {
             text-decoration: none;
             color: #a3d8f4;
-            font-weight: bold; }
-            .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_p .corousel__rvsP--A:hover {
-              text-decoration: none;
-              color: #a3d8f4;
-              transform: scale(4.2); }
+            transform: scale(4.2); }
         .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_sinBox {
           position: relative;
           margin-bottom: 30px; }
