@@ -169,31 +169,37 @@ p {
         text-align: center;
 		height: 2100px; 
 		.container__top_row{
-          margin: 250px 0px;
+		  margin: 200px 0px;
+		  .container__top_colTextTop{
+			background-color: red;
+			 
+		  .container__top_colText{
+			text-align: center;
+			background-color: green;
+			margin-top: 100px;
+			
+		}
+		}
 		.container__top_col {
-		    height: 300px;
-		     }
+		    height: 420px;
+			 }
+		
 		.container__top_colText_h2 {
 		        margin-top: 40px;
 		        color: $colWhite;
 		    }
-		.container__top_h2{
-			margin: 10px 0;
-			color:$colWhite;
-			font-size: 3rem;
-			font-weight: bold;
-		}   
+		    
 		.container__top_colText_p {
-		    width: 400px;
-		    text-align: center;
-			margin: 50px auto;
+			margin: 50px 0;
 			color: #eaeaed;
 			letter-spacing: 0.2rem;
 			font-size: 1.2rem;
+			padding: 0 20px;
 		}
 		.container__top_img {
 		    height: 300px;
-		    width: 500px;
+			width: 500px;
+			margin-top: 60px;
 		}
 	}
 }

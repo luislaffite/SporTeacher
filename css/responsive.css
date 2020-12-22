@@ -39,6 +39,17 @@
     .container__top .container__top_row {
       margin: 50px 0px;
     }
+    .container__top .container__top_row .container__top_colTextTop .container__top_colText{
+      margin-top: 100px;
+    }
+    .container__top .container__top_row .container__top_colText_h2{
+      font-size: 1.3rem; 
+    }
+    .container__top .container__top_row .container__top_colText_p{
+      letter-spacing: 0.1rem;
+      font-size: 1rem;
+      padding: 0 20px;
+    }
 }
 @media screen and (max-width:400px){
     .container__top{
@@ -47,11 +58,11 @@
       .container__top .container__top_row {
         margin: 50px 0px;
       }
-      .container__top .container__top_row .container__top_colText_p{
-        padding-right: 80px;
-      }
-		  .container__top_col {
-		    height: 300px;overflow: auto;
+    
+		  .container__top .container__top_row .container__top_col {
+        height: 300px;
+        
+       
 		     }
 		
 }
@@ -73,7 +84,7 @@
       /*container__tap_divh2*/
 @media screen and (max-width:460px){
        .container__top_divh2{
-           margin: 150px 0;}
+           margin: 450px 0 150px 0;}
 
 }
        /*section-testimonials-3-HOME */
