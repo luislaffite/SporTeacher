@@ -1,177 +1,183 @@
-       /*container-prefesores-HOME*/
+/*container-prefesores-HOME*/
 @media screen and (max-width:760px){
-	.container__profesores{
-	 height:1800px;
-	 }
-    .container__profesores_card{
-       margin-top:100px;}
-    	 
+.container__profesores{
+  height:1800px;
+  }
+  .container__profesores_card{
+      margin-top:100px;}
+      
 }      
 
 @media screen and (max-width:450px){
-	.container__profesores{
-	height:1800px;
-	 }
-    .container__profesores_card {
-        width:30rem;
-        margin-top: 100px;}
-    
+.container__profesores{
+height:1800px;
+  }
+  .container__profesores_card {
+      width:30rem;
+      margin-top: 100px;}
+  
 }
 
-        /*section-whatweDO-HOME*/
+      /*section-whatweDO-HOME*/
 @media screen and (max-width:770px){
-  .whatwedo__secction .whatwedo__div {
-    margin:50px 0px;}
+.whatwedo__secction .whatwedo__div {
+  margin:50px 0px;}
 }
 
 @media screen and (max-width:450px){
-  .whatwedo__secction .whatwedo__div {
-    margin: 50px 0px;}
+.whatwedo__secction .whatwedo__div {
+  margin: 50px 0px;}
 }
 
 
-        /*container-top-HOME*/
+      /*container-top-HOME*/
 
 @media screen and (max-width:770px){
+.container__top{
+    text-align:center;
+    height: 1700px; }
+  .container__top .container__top_row {
+    margin: 50px 0px;
+  }
+  .container__top .container__top_row .container__top_colTextTop .container__top_colText{
+    margin-top: 100px;
+  }
+  .container__top .container__top_row .container__top_colText_h2{
+    font-size: 1.3rem; 
+  }
+  .container__top .container__top_row .container__top_colText_p{
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width:400px){
   .container__top{
       text-align:center;
-      height: 1700px; }
+      height: 2700px; }
     .container__top .container__top_row {
       margin: 50px 0px;
     }
-    .container__top .container__top_row .container__top_colTextTop .container__top_colText{
-      margin-top: 100px;
-    }
-    .container__top .container__top_row .container__top_colText_h2{
-      font-size: 1.3rem; 
-    }
-    .container__top .container__top_row .container__top_colText_p{
-      letter-spacing: 0.1rem;
-      font-size: 1rem;
+  
+    .container__top .container__top_row .container__top_col {
+      height: 350px;
+      
+      
+        }
+  
+}
+      /*section-plans-price*/
+@media screen and (max-width:768px){
+    #plans__price .plans__price__p{
       padding: 0 20px;
     }
+      #plans__price .container__plan__col .panel__pricing .panel__footer .panel__btn:hover{
+      transform: scale(1.1);
+      }
 }
 @media screen and (max-width:400px){
-    .container__top{
-        text-align:center;
-        height: 2700px; }
-      .container__top .container__top_row {
-        margin: 50px 0px;
-      }
-    
-		  .container__top .container__top_row .container__top_col {
-        height: 350px;
-        
-       
-		     }
-		
-}
-       /*section-plans-price*/
-@media screen and (max-width:768px){
-      #plans__price .plans__price__p{
-        padding: 0 20px;
-      }
-       #plans__price .container__plan__col .panel__pricing .panel__footer .panel__btn:hover{
-        transform: scale(1.1);
-       }
-}
-@media screen and (max-width:400px){
-    #plans__price {
-    margin: 300px 0 150px;}
-    #plans__price .plans__price__p{
-      padding: 0px 20px;
-    }
+  #plans__price {
+  margin: 300px 0 150px;}
+  #plans__price .plans__price__p{
+    padding: 0px 20px;
+  }
 }      
 
 
-      /*container__tap_divh2*/
+    /*container__tap_divh2*/
 @media screen and (max-width:460px){
-       .container__top_divh2{
-           margin: 450px 0 150px 0;}
+      .container__top_divh2{
+          margin: 450px 0 150px 0;}
 
 }
-       /*section-testimonials-3-HOME */
+      /*section-testimonials-3-HOME */
 
 @media screen and (max-width:400px){
-    .divTestimonial_h3 {
-      margin-bottom: 100px;}
+  .divTestimonial_h3 {
+    margin-bottom: 100px;}
 }
-     /*container-reviews-HOME*/
-     
+    /*container-reviews-HOME*/
+    
 @media screen and (max-width:768px){
-      .container_reviews {
-        height:auto;
-      }
-      .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_imgText{
-      height:450px;
-      padding:60% 6%;
-      }
-      .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_imgArea{
-        left:60px;
-      }
-  }
+    .container_reviews {
+      height:auto;
+    }
+
+    .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col{
+    height:540px;
+    
+    }
+    .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_imgText{
+      height: 400px ;
+    }
+    .container_reviews .carousel_indicators_reviews {
+      left:0;
+      top:auto;
+      bottom:-60px;
+    }
+  
+}
 
 
 @media screen and (max-width:480px){
-  .container_reviews .carousel_indicators_reviews {
-    left:0;
-    top:auto;
-    bottom:-60px;
-  }
-  .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_imgText{
-  height:400px;
-  padding:40% 6%;
-  }
-  .container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_imgArea{
-    left:125px;
-  }
-   
+.container_reviews .carousel_indicators_reviews {
+  left:0;
+  top:auto;
+  bottom:-60px;
 }
- 
-     /******pages-help******/
-     @media screen and (max-width: 600px){
-      .section_help {
-          height:auto;
-          width:auto;
-       }
-      
-  }
+.container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col{
+height:420px;
+}
+.container_reviews .corousel_rvs_inner .corousel_rvs_item .corousel_rvs_col .corousel_rvs_imgText {
+  height: 260px;
+}
   
-   
-             /*teacher_card*/
+}
+
+    /******pages-help******/
+    @media screen and (max-width: 600px){
+    .section_help {
+        height:auto;
+        width:auto;
+      }
+    
+}
+
   
+            /*teacher_card*/
+
 @media screen and (max-width:768px){
 .teachers__card__style {
-  flex-direction:column !important;
-  margin-bottom:2.5rem;
-  height:auto;
+flex-direction:column !important;
+margin-bottom:2.5rem;
+height:auto;
 }
 }
-  /******************TEACHER-PERFIL******************/
-  @media screen and (max-width:768px){
-    .container{
-      height:auto;
-    }
+/******************TEACHER-PERFIL******************/
+@media screen and (max-width:768px){
+  .container{
+    height:auto;
   }
-             /*footer*/
-  @media screen and (max-width:768px){  
-    .footer__row{
-      margin-right:0;
-      margin-left:0;
-    }
-    .page-footer .footer__row .footer__col{	
-      margin: 0px 10px 10px 10px;
-     }
-    .page-footer .footer__row .footer__barra3{
-      width:100px;
-    }
+}
+            /*footer*/
+@media screen and (max-width:768px){  
+  .footer__row{
+    margin-right:0;
+    margin-left:0;
   }
-  
-  
-  @media screen and (max-width:450px){
-    .page-footer{
-      padding-left:20px;
-      padding-right:20px;
+  .page-footer .footer__row .footer__col{	
+    margin: 0px 10px 10px 10px;
     }
-     
+  .page-footer .footer__row .footer__barra3{
+    width:100px;
   }
+}
+
+
+@media screen and (max-width:450px){
+  .page-footer{
+    padding-left:20px;
+    padding-right:20px;
+  }
+    
+}
