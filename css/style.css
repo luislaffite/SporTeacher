@@ -151,11 +151,9 @@ p {
   .container__top .container__top_row {
     margin: 200px 0px; }
     .container__top .container__top_row .container__top_colTextTop {
-      background-color: red;
       width: 500px; }
       .container__top .container__top_row .container__top_colTextTop .container__top_colText {
         text-align: center;
-        background-color: green;
         margin-top: 100px; }
     .container__top .container__top_row .container__top_col {
       height: 420px; }
