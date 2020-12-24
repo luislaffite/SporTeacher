@@ -74,6 +74,9 @@ height:1800px;
       #plans__price .container__plan__col .panel__pricing .panel__footer .panel__btn:hover{
       transform: scale(1.1);
       }
+      #plans__price .container__plan__col .panel__pricing .panel__body__p{
+        font-size: 24px;
+      }
 }
 @media screen and (max-width:400px){
   #plans__price {
