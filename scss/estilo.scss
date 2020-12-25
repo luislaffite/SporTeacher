@@ -426,20 +426,33 @@ p {
  
            /******pages-help******/
 .section_help {
-    height: 1100px;
+    height: 2900px;
     width: auto;  
 		 .section_help_h2 {
 		     padding: 20px;
+		 }
+		 .section_help_divDivision{
+			 margin: 200px 0 30px 0;
+		 }
+		 .section_help_h3{
+			 font-size: 26px;
+			 font-weight: bold;
+			 color:$colWhite;
+			 margin: 50px 50px;
 		 }
 		 .section_help_faqs {
 		     background-color:$colWhite;
 		     width: 60%;
 		     margin: 60px 50px;
 		     padding: 20px 15px;
-		     border-radius: 25px;
+			 border-radius: 25px;
+			 line-height:2.1rem;
 		 }
-
+		 .section_help_faqSpan{
+			 color:$colPrincipal ;
+		 }
 		 .section_help_faqsH3{
+			text-transform: uppercase;
 		     color: $colPrincipal;
 		     font-weight: bold;
 		     font-size: 24px;
