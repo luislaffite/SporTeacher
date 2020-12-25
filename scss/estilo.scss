@@ -424,21 +424,36 @@ p {
 }
 
  
-           /******pages-help******/
+		   /******pages-help******/
+.help__img{
+border-radius: 30px;
+margin-top: 170px;
+box-shadow: $colShadowprimario;
+width: 500px;
+height: 400px;
+background-color:$colPrincipal;
+}
+.help__divH2{
+	text-align: center;
+	margin-top: 150px;
+}
 .section_help {
     height: 2900px;
     width: auto;  
-		 .section_help_h2 {
-		     padding: 20px;
-		 }
 		 .section_help_divDivision{
-			 margin: 200px 0 30px 0;
+			 margin: 100px 0 30px 0;
 		 }
 		 .section_help_h3{
 			 font-size: 26px;
 			 font-weight: bold;
 			 color:$colWhite;
-			 margin: 50px 50px;
+			 margin: 50px 0 0 50px;
+		 }
+		 .help__barra1{
+			height: 4px;
+			background-color: $colThird;
+			width: 120px;
+			margin: 6px 0px 0px 45px;
 		 }
 		 .section_help_faqs {
 		     background-color:$colWhite;
