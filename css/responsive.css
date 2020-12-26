@@ -138,6 +138,10 @@ height:420px;
 }
 
     /******pages-help******/
+    @media screen and (max-width: 768px){
+      .section_help {
+        height: 3000px;}
+    }
     @media screen and (max-width: 600px){
     .section_help {
         height:auto;
