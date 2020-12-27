@@ -66,7 +66,7 @@ height:1800px;
         }
   
 }
-      /*section-plans-price*/
+      /*section-plans-price-HOME*/
 @media screen and (max-width:768px){
     #plans__price .plans__price__p{
       padding: 0 20px;
@@ -138,19 +138,35 @@ height:420px;
 }
 
     /******pages-help******/
-    @media screen and (max-width: 768px){
-      .section_help {
-        height: 3000px;}
-    }
-    @media screen and (max-width: 600px){
-    .section_help {
-        height:auto;
-        width:auto;
-      }
-    
+@media screen and (max-width: 768px){
+  .section_help {
+    height: 3000px;}
+}
+@media screen and (max-width: 600px){
+.section_help {
+    height:auto;
+    width:auto;
+  }
+
 }
 
-  
+      /*pages-contact*/
+@media screen and (max-width:768px){
+.contact__topH1{
+  padding: 0px 10px;
+}
+.containerContact {
+  height: 750px;
+} 
+.container_info .container_info_col .container_info_imgText{
+  height: 420px;
+}
+} 
+@media screen and (max-width:400px){
+.container_info .container_info_col .container_info_imgText{
+  height: 365px;
+}  
+}
             /*teacher_card*/
 
 @media screen and (max-width:768px){
