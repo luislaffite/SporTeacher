@@ -593,6 +593,42 @@ width: 100%;
    
 }
 /**********************ADVERTISE**************/
+.container__advertise{
+	height: 500px;
+	margin: 150px 0;
+	.colAccord__advertise{
+		margin-top: 50px;
+	}
+	.colImg__advertise{
+		padding: 50px;
+			.img__advertise{
+				height: 300px;
+				width: 500px;
+				margin-left: 80px;
+				}	
+	}
+	.card__advertise{
+		background-color: transparent;
+		border: none;
+		padding:none;
+		color: white;
+		.span__advertise{
+			color:$colPrincipal important;
+		}
+		 .cardHeader__advertise{
+			 background-color:$colPrincipal;
+			 .btnLink__advertise{
+				 color: white;
+				 font-weight: bold;
+				 text-decoration: none;
+				 border: none;
+				  &:focus{
+					  box-shadow: none;
+				  }
+			 }
+		 }
+	}
+}
 .section__advertise {  
 	  text-align: center;
 	  height: 500px; 

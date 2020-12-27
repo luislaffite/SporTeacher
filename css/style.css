@@ -493,6 +493,34 @@ p {
     letter-spacing: 1px; }
 
 /**********************ADVERTISE**************/
+.container__advertise {
+  height: 500px;
+  margin: 150px 0; }
+  .container__advertise .colAccord__advertise {
+    margin-top: 50px; }
+  .container__advertise .colImg__advertise {
+    padding: 50px; }
+    .container__advertise .colImg__advertise .img__advertise {
+      height: 300px;
+      width: 500px;
+      margin-left: 80px; }
+  .container__advertise .card__advertise {
+    background-color: transparent;
+    border: none;
+    padding: none;
+    color: white; }
+    .container__advertise .card__advertise .span__advertise {
+      color: #7579e7 important; }
+    .container__advertise .card__advertise .cardHeader__advertise {
+      background-color: #7579e7; }
+      .container__advertise .card__advertise .cardHeader__advertise .btnLink__advertise {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        border: none; }
+        .container__advertise .card__advertise .cardHeader__advertise .btnLink__advertise:focus {
+          box-shadow: none; }
+
 .section__advertise {
   text-align: center;
   height: 500px;
