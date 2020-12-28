@@ -167,14 +167,48 @@ height:420px;
   height: 365px;
 }  
 }
+    /******pages-advertise******/
+@media screen and (max-width: 768px){
+  .container__advertise {
+    height: auto;
+    margin: 150px 0;
+}
+  .container__advertise .colAccord__advertise {
+    margin-top: 0px;
+}
+  .container__advertise .colImg__advertise {
+    padding: 0px;
+}
+  .container__advertise .colImg__advertise .img__advertise {
+    margin-left: 0;
+    padding-bottom: 120px;
+  }
+}
+@media screen and (max-width: 400px){
+  .container__advertise .colImg__advertise .img__advertise {
+    padding: 20px;
+  }
+
+}
             /*teacher_card*/
 
 @media screen and (max-width:768px){
+  .teachers__card .teachers__card__row .teachers__card__content{
+    text-align: center;
+  }
+  .teachers__card .teachers__card__row .teachers__card__btn{
+    margin-left: 80px;
+  }
 .teachers__card__style {
 flex-direction:column !important;
 margin-bottom:2.5rem;
 height:auto;
 }
+}
+@media screen and (max-width:400px){
+  .teachers__card .teachers__card__row .teachers__card__btn{
+    margin-left: 65px;
+  }
 }
 /******************TEACHER-PERFIL******************/
 @media screen and (max-width:768px){

@@ -497,7 +497,8 @@ p {
   height: 500px;
   margin: 150px 0; }
   .container__advertise .colAccord__advertise {
-    margin-top: 50px; }
+    margin-top: 50px;
+    padding: 0 30px; }
   .container__advertise .colImg__advertise {
     padding: 50px; }
     .container__advertise .colImg__advertise .img__advertise {
@@ -617,6 +618,7 @@ p {
       background-color: #7579e7;
       font-weight: bold;
       box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548);
+      margin-left: 90px;
       margin-top: 0.5rem; }
     .teachers__card .teachers__card__row .teachers__card__btn:hover {
       background-color: #a5a8f8;
