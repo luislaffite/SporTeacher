@@ -39,7 +39,8 @@ p {
   color: #fff;
   background-color: #7579e7;
   font-size: 20px;
-  border-color: transparent; }
+  border-color: transparent;
+  font-weight: bold; }
   .navStyle .navLinke__style {
     background-color: #7579e7;
     font-size: 20px;
@@ -49,7 +50,8 @@ p {
     border-radius: 20px; }
   .navStyle .dropdown__style {
     background-color: #7579e7;
-    color: #fff; }
+    color: #fff;
+    font-weight: bold; }
     .navStyle .dropdown__style .dropdown__style:hover {
       background-color: #a3d8f4;
       border-radius: 20px; }
@@ -57,6 +59,10 @@ p {
     padding: 0;
     min-width: 6rem;
     left: -10px; }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 2rem;
+  padding-left: 2rem; }
 
 .navbar__customToggler {
   border-color: #a3d8f4; }
@@ -470,7 +476,7 @@ p {
       font-size: 44px; }
 
 .section_contactForm {
-  margin: 50px 0; }
+  margin: 150px 0; }
   .section_contactForm .contactForm__labelText {
     color: #fff;
     font-weight: bold;
@@ -625,47 +631,73 @@ p {
       transform: scale(1.2); }
 
 /******************TEACHER-PERFIL******************/
+.teacherPerfil__titulos {
+  height: 200px; }
+  .teacherPerfil__titulos .teacherPerfil__h1Div {
+    margin: 100px auto 30px;
+    max-width: max-content;
+    padding: 10px; }
+    .teacherPerfil__titulos .teacherPerfil__h1Div .teacherPerfil__h1 {
+      font-family: 'Quicksand', sans-serif;
+      text-align: center;
+      color: #fff;
+      font-weight: bold;
+      font-size: 2.5rem; }
+    .teacherPerfil__titulos .teacherPerfil__h1Div .teacherPerfil__Hr {
+      height: 5px;
+      background: #a3d8f4;
+      margin-top: 0; }
+  .teacherPerfil__titulos .teacherPerfil__h2Div {
+    margin: 100px 0px 50px 130px;
+    max-width: max-content; }
+    .teacherPerfil__titulos .teacherPerfil__h2Div .teacherPerfil__h2 {
+      font-family: 'Quicksand', sans-serif;
+      text-align: left;
+      color: #fff;
+      font-weight: bold;
+      font-size: 2rem; }
+
 .teacherPerfil__container {
   background-color: #9ab3f5;
-  margin: auto; }
-  .teacherPerfil__container .teacherPerfil__col__p {
-    background: green;
-    width: 150px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 15px; }
+  margin-top: 50px; }
   .teacherPerfil__container .teacherPerfil__img {
     height: 400px;
     width: 300px;
-    margin-left: 20px; }
+    border: 3px solid #a3d8f4;
+    border-radius: 15px;
+    box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548); }
   .teacherPerfil__container .teacherPerfil__center-block {
     margin-left: auto;
-    margin-right: auto;
     display: block; }
   .teacherPerfil__container .teacherPerfil__h2Name {
     color: #7579e7;
     font-size: 26px;
-    font-weight: bold; }
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0 40px; }
   .teacherPerfil__container .teacherPerfil__col {
-    margin: auto; }
+    margin: 0; }
   .teacherPerfil__container .teacherPerfil__colRev {
     background-color: #fff;
     border-radius: 20px;
     margin: auto;
-    box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548); }
+    box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548);
+    height: 400px; }
   .teacherPerfil__container .teacherPerfil__colorFar {
-    color: burlywood; }
+    color: burlywood;
+    margin-bottom: 1rem; }
+  .teacherPerfil__container .teacherPerfil__fa {
+    padding-right: 5px; }
   .teacherPerfil__container .teacherPerfil__price {
     color: #FE980F;
     font-size: 26px;
-    font-weight: bold; }
+    font-weight: bold;
+    margin: 1rem 0; }
+  .teacherPerfil__container .teacherPerfil__input {
+    width: 40px; }
   .teacherPerfil__container .teacherPerfil__btn {
-    display: flex;
-    flex-direction: row;
-    margin: 20px; }
+    text-align: center;
+    margin: 40px auto 0; }
   .teacherPerfil__container .teacherPerfil__cart {
     border-radius: 25px;
     border-color: #fff;
@@ -711,8 +743,7 @@ p {
     color: #fff;
     background-color: #7579e7;
     transition: all 0.2s ease-in; }
-  .container__accordion Add Indicator fontawesome icon to the left
-#accordion .panel-heading .accordion-toggle::before {
+  .container__accordion #accordion .panel-heading .accordion-toggle::before {
     font-family: 'FontAwesome';
     content: '\f00d';
     float: left;
@@ -724,6 +755,8 @@ p {
     color: #7579e7;
     transform: rotate(-135deg);
     transition: all 0.2s ease-in; }
+  .container__accordion .accordion__panelBody {
+    color: #fff; }
 
 /**********************FOOTER **************/
 .page-footer {

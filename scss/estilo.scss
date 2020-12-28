@@ -52,17 +52,20 @@ p {
     color: $colWhite;
     background-color: $colPrincipal;
     font-size: 20px;
-    border-color: transparent;
+	border-color: transparent;
+	font-weight: bold;
 		.navLinke__style {
 		background-color: $colPrincipal;
 		font-size: 20px;
-		color: $colWhite;}
+		color: $colWhite;
+		}
        .navLinke__style:hover {
 	     background-color: $colThird;
 	     border-radius: 20px ;}	    
 		.dropdown__style{
 	     background-color: $colPrincipal;	
-	     color: $colWhite;
+		 color: $colWhite;
+		 font-weight: bold;
 	     .dropdown__style:hover {
 	     background-color: $colThird;
 	     border-radius: 20px ;}	
@@ -72,7 +75,11 @@ p {
 	     	min-width: 6rem;
 	     	left: -10px;
 	     }
-    }
+}   
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding-right: 2rem;
+	padding-left: 2rem;	
+}
   
 
 .navbar__customToggler{
@@ -563,7 +570,7 @@ width: 100%;
 }
  
 .section_contactForm {
-	margin: 50px 0;
+	margin: 150px 0;
 	.contactForm__labelText{
 	color: $colWhite;
 	font-weight: bold;
@@ -753,57 +760,87 @@ width: 100%;
 		
 }
 /******************TEACHER-PERFIL******************/
+.teacherPerfil__titulos{
+	height: 200px;
+	.teacherPerfil__h1Div{
+		margin: 100px auto 30px;
+		max-width: max-content;
+		padding: 10px;
+		.teacherPerfil__h1{			
+			font-family: 'Quicksand', sans-serif;
+			text-align: center;
+			color: $colWhite;
+			font-weight: bold;
+			font-size: 2.5rem;}
+		.teacherPerfil__Hr{
+			height: 5px;
+			background: $colThird;
+			margin-top: 0;
+		}
+		}
+	.teacherPerfil__h2Div{
+		margin: 100px 0px 50px 130px;
+		max-width: max-content;
+		.teacherPerfil__h2{	
+			font-family: 'Quicksand', sans-serif;
+			text-align: left;
+			color: $colWhite;
+			font-weight: bold;
+			font-size: 2rem;}
+		}
+		
+}
 
 .teacherPerfil__container {
      background-color: $colBody;
-     margin: auto;
-			.teacherPerfil__col__p {
-			    background: green;
-			    width: 150px;
-			    color: $colWhite;
-			    font-size: 18px;
-			    font-weight: bold;
-			    text-align: center;
-			    margin-bottom: 20px;
-			    margin-top: 15px;
-			}
-
+     margin-top: 50px;
 			.teacherPerfil__img  {
 			    height: 400px;
 			    width: 300px;
-			    margin-left: 20px;
+			    border: 3px solid $colThird;
+				border-radius: 15px;
+				box-shadow: $colShadowprimario
 			}
 			.teacherPerfil__center-block {
 			    margin-left:auto;
-			    margin-right:auto;
 			    display:block;
 			}
 			.teacherPerfil__h2Name {
 			    color: $colPrincipal;
 			    font-size: 26px;
-			    font-weight: bold;
+				font-weight: bold;
+				text-align: center;
+				margin: 20px 0 40px;
 			}    
 			.teacherPerfil__col {
-			    margin: auto;
+			    margin:0;
 			}
 			.teacherPerfil__colRev {
 			    background-color: $colWhite;
 			    border-radius: 20px;
 			    margin: auto;
-			    box-shadow: $colShadowprimario;
+				box-shadow: $colShadowprimario;
+				height: 400px;
 			}
 			.teacherPerfil__colorFar {
-			    color: $colStars;
+				color: $colStars;
+				margin-bottom: 1rem;
+			}
+			.teacherPerfil__fa{
+				padding-right: 5px;
 			}
 			.teacherPerfil__price {
 			    color: $colPrice;
 			    font-size: 26px;
-			    font-weight: bold;     
+				font-weight: bold;    
+				margin: 1rem 0; 
+			}
+			.teacherPerfil__input{
+				width: 40px ;
 			}
 			.teacherPerfil__btn {
-			    display: flex;
-			    flex-direction: row;
-			    margin: 20px;
+			    text-align: center;
+			    margin: 40px auto 0;
 			} 
 			.teacherPerfil__cart {
 				  @include btn__general;}
@@ -851,7 +888,7 @@ width: 100%;
 			  transition: all 0.2s ease-in;
 			}
 
-			 Add Indicator fontawesome icon to the left  
+			
 			#accordion .panel-heading .accordion-toggle::before {
 			  font-family: 'FontAwesome';
 			  content: '\f00d';
@@ -865,6 +902,9 @@ width: 100%;
 			  color: $colPrincipal;
 			  transform: rotate(-135deg);
 			  transition: all 0.2s ease-in;
+			}
+			.accordion__panelBody{
+				color:$colWhite ;
 			}
 }
  

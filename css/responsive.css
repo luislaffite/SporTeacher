@@ -212,8 +212,28 @@ height:auto;
 }
 /******************TEACHER-PERFIL******************/
 @media screen and (max-width:768px){
-  .container{
-    height:auto;
+  .teacherPerfil__container .teacherPerfil__colRev{
+    margin: 0 0 0 10px;
+  }
+  .teacherPerfil__container .teacherPerfil__col{
+    margin: 0 10px 0 0 ;
+  }
+  .container__accordion{
+    height: auto;
+  }
+}
+@media screen and (max-width:400px){
+  .teacherPerfil__container .teacherPerfil__colRev{
+    margin: 20px 0  10px;
+  }
+  .teacherPerfil__container .teacherPerfil__img{
+    margin: auto;
+  }
+  .teacherPerfil__container .teacherPerfil__col{
+    margin: 0;
+  }
+  .container__accordion{
+    height: auto;
   }
 }
             /*footer*/
