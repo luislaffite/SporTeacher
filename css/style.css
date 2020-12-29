@@ -599,7 +599,7 @@ p {
       -webkit-line-clamp: 4;
       max-height: 3rem;
       line-height: 1rem;
-      margin-bottom: 40px; }
+      margin-bottom: 25px; }
     .teachers__card .teachers__card__row .teachers__card__bottom {
       display: -webkit-box;
       display: -ms-flexbox;
