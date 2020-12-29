@@ -193,6 +193,9 @@ height:420px;
             /*teacher_card*/
 
 @media screen and (max-width:768px){
+  .teachers__card .teachers__card__row .teachers__card__description{
+    margin-bottom: 55px;
+  }
   .teachers__card .teachers__card__row .teachers__card__content{
     text-align: center;
   }

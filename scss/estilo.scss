@@ -710,17 +710,17 @@ width: 100%;
 					    padding-bottom: 15px;
 					}
 					.teachers__card__description {
-					    font-size: 0.8rem;
+					  font-size: 0.8rem;
 					  margin: 0;
 					  margin-top: 0.5rem;
 					  color: $colGrey;
-					    overflow: hidden;
 					  text-overflow: ellipsis;
 					  display: -webkit-box;
 					  -webkit-box-orient: vertical;
 					  -webkit-line-clamp: 4;
 					  max-height: 3rem;
 					  line-height: 1rem;
+					  margin-bottom: 40px;
 					}
 					.teachers__card__bottom {
 					    display: -webkit-box;
@@ -778,16 +778,7 @@ width: 100%;
 			margin-top: 0;
 		}
 		}
-	.teacherPerfil__h2Div{
-		margin: 100px 0px 50px 130px;
-		max-width: max-content;
-		.teacherPerfil__h2{	
-			font-family: 'Quicksand', sans-serif;
-			text-align: left;
-			color: $colWhite;
-			font-weight: bold;
-			font-size: 2rem;}
-		}
+	
 		
 }
 
