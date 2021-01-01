@@ -10,13 +10,13 @@ body {
   background-color: #9ab3f5; }
 
 /*encabezados*/
-.topH2 {
+.topDiv__style {
   margin: 100px 0px 30px;
   font-family: 'Quicksand', sans-serif;
   background-color: #9ab3f5;
   text-align: center;
   color: #fff; }
-  .topH2 .topH2__h2 {
+  .topDiv__style .topDiv__style__h2 {
     font-size: 40px; }
 
 h2 {
@@ -368,10 +368,10 @@ p {
     background: #fff; }
 
 /******pages-help******/
-.topH2__h1 {
+.top__h1 {
   margin-bottom: 170px; }
 
-.topH2__divImg {
+.topH1__divImg {
   max-width: 500px;
   margin: 0 auto;
   padding: 20px; }
