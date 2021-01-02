@@ -54,7 +54,7 @@ height:1800px;
 @media screen and (max-width:400px){
   .container__top{
       text-align:center;
-      height: 2700px; }
+      height: 2930px; }
     .container__top .container__top_row {
       margin: 50px 0px;
     }
@@ -83,6 +83,10 @@ height:1800px;
   margin: 300px 0 150px;}
   #plans__price .plans__price__p{
     padding: 0px 20px;
+    margin-bottom: 0px;
+  }
+  #plans__price .container__plan__col .panel__pricing .panel__body__p{
+    margin-bottom: 0px;
   }
 }      
 
