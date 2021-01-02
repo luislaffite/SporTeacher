@@ -82,6 +82,13 @@ p {
     left: 0;
     right: 0;
     padding: 50px; }
+    .carousel__item--style .container__carousel .span__carousel {
+      color: #fff;
+      margin-bottom: .5rem;
+      font-weight: 500;
+      line-height: 1.2;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 2.5rem; }
   .carousel__item--style .btn__carousel {
     border-radius: 25px;
     border-color: #fff;
@@ -143,7 +150,8 @@ p {
     margin: 150px 0px;
     padding: 10px;
     text-align: center; }
-    .whatwedo__secction .whatwedo__div .whatwedo__h2 {
+    .whatwedo__secction .whatwedo__div .whatwedo__h1 {
+      color: #fff;
       font-size: 50px;
       margin: 30px 0; }
     .whatwedo__secction .whatwedo__div .whatwedo__p {
