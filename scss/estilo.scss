@@ -21,7 +21,10 @@ body {
 	text-align: center;
 	color: $colWhite;
     .topDiv__style__h2{
-    font-size: 40px;}
+	font-size: 40px;}
+	.topDiv__H1{
+		margin-bottom: 100px;
+	}
 }
 
 
@@ -35,14 +38,12 @@ h3 {
 	color: $colWhite;
     font-family: 'Quicksand', sans-serif;
     
-} 
- 
+}  
 p {
 	font-family: 'Quicksand', sans-serif; 
 	letter-spacing: 1px;
 	 
 }
-
 
 /***************** NAV ****************/
 .navbar__foto{
@@ -80,7 +81,6 @@ p {
 	padding-right: 2rem;
 	padding-left: 2rem;	
 }
-  
 
 .navbar__customToggler{
 	border-color: $colThird;
