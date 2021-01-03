@@ -189,6 +189,12 @@ height:420px;
   }
 }
 @media screen and (max-width: 400px){
+  .topDiv__style{
+    margin-top: 50px;
+  }
+  .container__advertise{
+    margin: 70px 0px 100px 0px;
+  }
   .container__advertise .colImg__advertise .img__advertise {
     padding: 20px;
   }
