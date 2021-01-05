@@ -58,12 +58,12 @@ p {
 		.navLinke__style {
 		background-color: $colPrincipal;
 		font-size: 20px;
-		color: $colWhite;
-		}
-       .navLinke__style:hover {
+		color: $colWhite;		
+         &:hover {
 	     background-color: $colThird;
 		 border-radius: 20px;
-		 width: -moz-fit-content;}	    
+		 width: fit-content;}
+		}
 		.dropdown__style{
 	     background-color: $colPrincipal;	
 		 color: $colWhite;
@@ -72,7 +72,7 @@ p {
 	     &:hover {
 	     background-color: $colThird;
 		 border-radius: 20px ;
-		 width: -moz-fit-content;}	
+		 width: fit-content;}	
 	     }
 	     .dropdown__menu--style{
 	     	padding: 0;
@@ -80,7 +80,7 @@ p {
 			border: none;
 			left: 0;
 			right: 0;
-			background-color:transparent;
+			background-color:$colPrincipal;
 	     }
 }   
 .navbar-expand-lg .navbar-nav .nav-link{

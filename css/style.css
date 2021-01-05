@@ -47,10 +47,10 @@ p {
     background-color: #7579e7;
     font-size: 20px;
     color: #fff; }
-  .navStyle .navLinke__style:hover {
-    background-color: #a3d8f4;
-    border-radius: 20px;
-    width: -moz-fit-content; }
+    .navStyle .navLinke__style:hover {
+      background-color: #a3d8f4;
+      border-radius: 20px;
+      width: fit-content; }
   .navStyle .dropdown__style {
     background-color: #7579e7;
     color: #fff;
@@ -59,14 +59,14 @@ p {
     .navStyle .dropdown__style:hover {
       background-color: #a3d8f4;
       border-radius: 20px;
-      width: -moz-fit-content; }
+      width: fit-content; }
   .navStyle .dropdown__menu--style {
     padding: 0;
     min-width: 6rem;
     border: none;
     left: 0;
     right: 0;
-    background-color: transparent; }
+    background-color: #7579e7; }
 
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 2rem;
