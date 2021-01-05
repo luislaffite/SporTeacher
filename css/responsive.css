@@ -35,7 +35,7 @@ height:1800px;
 @media screen and (max-width:770px){
 .container__top{
     text-align:center;
-    height: 1700px; }
+    height: 1900px; }
   .container__top .container__top_row {
     margin: 50px 0px;
   }
@@ -54,7 +54,7 @@ height:1800px;
 @media screen and (max-width:400px){
   .container__top{
       text-align:center;
-      height: 2930px; }
+      height: 3100px; }
     .container__top .container__top_row {
       margin: 50px 0px;
     }
@@ -83,7 +83,7 @@ height:1800px;
   margin: 300px 0 150px;}
   #plans__price .plans__price__p{
     padding: 0px 20px;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
   }
   #plans__price .container__plan__col .panel__pricing .panel__body__p{
     margin-bottom: 0px;
@@ -153,23 +153,45 @@ height:420px;
   }
 
 }
+@media screen and (max-width:400px){
+  .top__h1{
+    margin-bottom: 100px;
+  }
+}
 
       /*pages-contact*/
 @media screen and (max-width:768px){
-.contact__topH1{
-  padding: 0px 10px;
-}
-.containerContact {
-  height: 750px;
-} 
-.container_info .container_info_col .container_info_imgText{
-  height: 420px;
-}
+  .topDiv__style{
+    margin: 50px 0 0 ;
+  }
+  .contact__topH1{
+    padding: 0px 10px;
+  }
+  .containerContact {
+    height: 420px;
+    margin: 0 0 100px 0;
+  } 
+  .containerContact .containerContact_row{
+    margin: 0 0 100px 0;
+  }
+  .containerContact .containerContact_row .containerContact_col{
+    margin-top: 20px;
+  }
+  .container_info .container_info_col .container_info_imgText{
+    height: 420px;
+  }
 } 
 @media screen and (max-width:400px){
-.container_info .container_info_col .container_info_imgText{
-  height: 365px;
-}  
+  .containerContact{
+    margin: 0 0 100px 0;
+    height: 750px;
+  }
+  .containerContact .containerContact_row{
+    margin: 0 0 100px 0;
+  }
+  .container_info .container_info_col .container_info_imgText{
+    height: 365px;
+  }  
 }
     /******pages-advertise******/
 @media screen and (max-width: 768px){
@@ -255,6 +277,7 @@ height:auto;
     height: auto;
   }
 }
+
             /*footer*/
 @media screen and (max-width:768px){  
   .footer__row{
