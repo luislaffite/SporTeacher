@@ -231,6 +231,9 @@ height:auto;
   .teacherPerfil__container .teacherPerfil__col{
     margin: 0 10px 0 0 ;
   }
+  .teacherPerfil__container .teacherPerfil__btn{
+    margin-top: 15px;
+ }
   .container__accordion{
     height: auto;
   }
@@ -244,6 +247,9 @@ height:auto;
   }
   .teacherPerfil__container .teacherPerfil__col{
     margin: 0;
+  }
+  .teacherPerfil__container .teacherPerfil__btn{
+     margin-top: 25px;
   }
   .container__accordion{
     height: auto;
