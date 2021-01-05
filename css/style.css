@@ -50,7 +50,7 @@ p {
     .navStyle .navLinke__style:hover {
       background-color: #a3d8f4;
       border-radius: 20px;
-      width: fit-content; }
+      width: max-content; }
   .navStyle .dropdown__style {
     background-color: #7579e7;
     color: #fff;
@@ -59,7 +59,7 @@ p {
     .navStyle .dropdown__style:hover {
       background-color: #a3d8f4;
       border-radius: 20px;
-      width: fit-content; }
+      width: max-content; }
   .navStyle .dropdown__menu--style {
     padding: 0;
     min-width: 6rem;

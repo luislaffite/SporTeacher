@@ -62,7 +62,7 @@ p {
          &:hover {
 	     background-color: $colThird;
 		 border-radius: 20px;
-		 width: fit-content;}
+		 width: max-content;}
 		}
 		.dropdown__style{
 	     background-color: $colPrincipal;	
@@ -72,7 +72,7 @@ p {
 	     &:hover {
 	     background-color: $colThird;
 		 border-radius: 20px ;
-		 width: fit-content;}	
+		 width: max-content;}	
 	     }
 	     .dropdown__menu--style{
 	     	padding: 0;
