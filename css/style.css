@@ -557,8 +557,7 @@ p {
   -ms-text-size-adjust: 100%; }
   .teachers__card .teachers__card__row {
     max-width: 1200px;
-    margin: 2rem auto;
-    border-radius: 15px; }
+    margin: 2rem auto; }
     .teachers__card .teachers__card__row .teachers__card__style {
       display: flex;
       -webkit-box-pack: justify;
@@ -566,7 +565,8 @@ p {
       justify-content: space-between;
       flex-direction: row;
       margin-bottom: 10.5rem;
-      box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548); }
+      box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548);
+      border-radius: 15px; }
     .teachers__card .teachers__card__row .teachers__card__img {
       flex: 1 30%;
       -webkit-flex: 1 30%;
