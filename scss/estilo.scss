@@ -167,7 +167,7 @@ p {
 
 }
 
-/**********section-what-we-do********/
+          /**********section-what-we-do********/
 .whatwedo__secction{
 	width: 100%;
 		.whatwedo__div{
@@ -185,7 +185,7 @@ p {
 				}
 			}
 }
-/**********containerTop********/
+           /**********containerTop********/
 
 .container__top {
         text-align: center;
@@ -223,7 +223,7 @@ p {
 		}
 	}
 }
-/*****container profesorer***/
+           /*****container profesorer***/
 .container__topTeacher{
 	margin: 100px 0px 150px 0px ;
 	text-align: center;
@@ -253,7 +253,11 @@ p {
 			margin-bottom: 0;
 			font-weight: bold;
 			font-size: 24px;
-		}  
+		} 
+		.container__profesores_img{
+			width: 300px;
+			height: 200px;
+		} 
 		.container__profesores_cardText{
 			margin-top: 10px;
 		}  
@@ -263,7 +267,7 @@ p {
 
 }   
 
-/*****container Price***/ 
+             /*****container Price***/ 
 #plans__price{
 	margin: 250px 0;
 	  .plans__price__h2{
@@ -335,7 +339,7 @@ p {
 	
  }
 }
-/******CONNTAINER-REVIEWS******/
+          /******CONNTAINER-REVIEWS******/
 .divTestimonial_h3 {
    text-align: center; 
    margin-top: 70px;
