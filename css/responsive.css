@@ -91,11 +91,11 @@ height:1800px;
 }      
 
 
-    /*container__tap_divh2*/
-@media screen and (max-width:460px){
-      .container__top_divh2{
-          margin: 450px 0 150px 0;}
-
+    /*container topDiv__style*/
+@media screen and (max-width:768px){
+      .topDiv__style .topDiv__H1{
+        padding: 0 10px;
+         }
 }
       /*section-testimonials-3-HOME */
 
@@ -234,11 +234,11 @@ height:420px;
   .teachers__card .teachers__card__row .teachers__card__btn{
     margin-left: 80px;
   }
-.teachers__card__style {
-flex-direction:column !important;
-margin-bottom:2.5rem;
-height:auto;
-}
+  .teachers__card__style {
+  flex-direction:column !important;
+  margin-bottom:2.5rem;
+  height:auto;
+  }
 }
 @media screen and (max-width:400px){
   .teachers__card .teachers__card__row .teachers__card__btn{
