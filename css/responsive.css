@@ -1,21 +1,23 @@
 /*container-prefesores-HOME*/
 @media screen and (max-width:760px){
 .container__profesores{
-  height:1800px;
+  height:auto;
   }
   .container__profesores_card{
       margin-top:100px;}
       
 }      
 
-@media screen and (max-width:450px){
-.container__profesores{
-height:1800px;
-  }
-  .container__profesores_card {
-      width:30rem;
+@media screen and (max-width:400px){
+    .container__profesores{
+    height:auto;}
+     
+    .container__profesores .container__profesores_card {
+      width: 100%;
       margin-top: 100px;}
-  
+    .container__profesores .container__profesores_img{
+      width: 100%;
+    }
 }
 
       /*section-whatweDO-HOME*/
@@ -35,7 +37,7 @@ height:1800px;
 @media screen and (max-width:770px){
 .container__top{
     text-align:center;
-    height: 1900px; }
+    height: auto; }
   .container__top .container__top_row {
     margin: 50px 0px;
   }
@@ -54,7 +56,7 @@ height:1800px;
 @media screen and (max-width:400px){
   .container__top{
       text-align:center;
-      height: 3100px; }
+      height: auto; }
     .container__top .container__top_row {
       margin: 50px 0px;
     }
@@ -68,6 +70,8 @@ height:1800px;
 }
       /*section-plans-price-HOME*/
 @media screen and (max-width:768px){
+    #plans__price {
+    margin: 200px 0 150px;}
     #plans__price .plans__price__p{
       padding: 0 20px;
     }
@@ -80,7 +84,7 @@ height:1800px;
 }
 @media screen and (max-width:400px){
   #plans__price {
-  margin: 300px 0 150px;}
+  margin: 150px 0 150px;}
   #plans__price .plans__price__p{
     padding: 0px 20px;
     margin-bottom: 100px;
