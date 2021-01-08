@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
 @import "colores";
 @import "mixins";
 
@@ -973,6 +974,28 @@ width: 100%;
 		}
 		.footer__contact {
 			color: $colWhite;
+		}
+	}
+	.footerDiv__bottom{
+		text-align: center;
+		height: auto;
+		width: 100%;
+		.divBottom--p{
+			font-size: 1rem;
+			color: $colWhite;
+			margin: 0;		
+			.divBottom--a{
+				color:$colWhite;
+				font-family: 'Charm', cursive;
+				font-size: 1.3rem;
+				font-weight: bold;
+				margin-left: 5px;
+				text-decoration: none;
+				&:hover{
+				color: $colThird;
+				text-decoration: none;
+				}
+			}
 		}
 	}
 }
