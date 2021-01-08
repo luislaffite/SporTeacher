@@ -825,9 +825,9 @@ p {
       margin: 0; }
       .page-footer .footerDiv__bottom .divBottom--p .divBottom--a {
         color: #fff;
-        font-family: 'Charm', cursive;
+        font-family: 'Charm' !important;
         font-size: 1.3rem;
-        font-weight: bold;
+        font-weight: 700;
         margin-left: 5px;
         text-decoration: none; }
         .page-footer .footerDiv__bottom .divBottom--p .divBottom--a:hover {

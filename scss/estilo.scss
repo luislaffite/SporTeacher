@@ -3,6 +3,8 @@
 @import "colores";
 @import "mixins";
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -986,9 +988,9 @@ width: 100%;
 			margin: 0;		
 			.divBottom--a{
 				color:$colWhite;
-				font-family: 'Charm', cursive;
+				font-family: 'Charm' !important;
 				font-size: 1.3rem;
-				font-weight: bold;
+				font-weight: 700;
 				margin-left: 5px;
 				text-decoration: none;
 				&:hover{
