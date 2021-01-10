@@ -120,6 +120,11 @@ p {
 		   font-family: 'Quicksand', sans-serif;
 		   font-size:  2.5rem;
 	   }
+	   .container__carousel--p{
+		   font-size: 1.2rem;
+		   font-weight: bold;
+		   
+	   }
 	}
 	.btn__carousel{
 	@include btn__general;	
@@ -499,6 +504,7 @@ width: 100%;
 		 }
 		 .section_help_faqSpan{
 			 color:$colPrincipal ;
+			 font-weight: bold;
 		 }
 		 .section_help_faqsH3{
 			text-transform: uppercase;

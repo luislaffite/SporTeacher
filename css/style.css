@@ -99,6 +99,9 @@ p {
       line-height: 1.2;
       font-family: 'Quicksand', sans-serif;
       font-size: 2.5rem; }
+    .carousel__item--style .container__carousel .container__carousel--p {
+      font-size: 1.2rem;
+      font-weight: bold; }
   .carousel__item--style .btn__carousel {
     border-radius: 25px;
     border-color: #fff;
@@ -430,7 +433,8 @@ p {
     border-radius: 25px;
     line-height: 2.1rem; }
   .section_help .section_help_faqSpan {
-    color: #7579e7; }
+    color: #7579e7;
+    font-weight: bold; }
   .section_help .section_help_faqsH3 {
     text-transform: uppercase;
     color: #7579e7;
