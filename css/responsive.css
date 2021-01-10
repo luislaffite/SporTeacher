@@ -191,7 +191,7 @@ height:420px;
     padding: 0px 10px;
   }
   .containerContact {
-    height: 420px;
+    height: auto;
     margin: 0 0 100px 0;
   } 
   .containerContact .containerContact_row{
