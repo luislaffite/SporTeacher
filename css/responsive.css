@@ -1,3 +1,20 @@
+/*--CAROUSEL--*/
+@media screen and (max-width:768px){
+  .carousel__item--styleImg1{
+    background-position: right;
+  }
+}
+@media screen and (max-width:400px){
+  .carousel__item--styleImg1{
+    background-position: right;
+  }
+}
+/*container-topTeacher-HOME*/
+@media screen and (max-width:400px){
+  .container__topTeacher{
+    margin-bottom: 0px;
+  }
+}
 /*container-prefesores-HOME*/
 @media screen and (max-width:760px){
 .container__profesores{
@@ -10,7 +27,9 @@
 
 @media screen and (max-width:400px){
     .container__profesores{
-    height:auto;}
+    height:auto;
+    margin-top: 0px;}
+
      
     .container__profesores .container__profesores_card {
       width: 100%;
