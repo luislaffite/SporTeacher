@@ -270,9 +270,10 @@ height:420px;
   }
 }
 @media screen and (max-width:400px){
-  .teachers__card .teachers__card__row .teachers__card__btn{
-    margin-left: 65px;
+  .teachers__card .teachers__card__row .teachers__card__style{
+    height: auto;
   }
+ 
 }
 /******************TEACHER-PERFIL******************/
 @media screen and (max-width:768px){
